@@ -16,10 +16,13 @@
         if($sql->rowCount() == 1){
             $info = $sql->fetch();
 
-            $mail = new Email('br610.hostgator.com.br','contato@mundodaprogramacao.com.br','Planetajupter=23','Nome do seu site');
+            $mail = new Email('hostdasuahospedagem','emaildasuahospedagem','senhadoseuemail','Nome do seu site');
             $mail->enviarPara($_POST['email_aluno'], $info['nome_aluno']);
             
+            
             $url = 'http://localhost/Projetos/Redefinicao/redefinir.php';
+            
+            
             $corpo = 'Olá '.$info['nome_aluno'].', <br>
             Foi solicitada uma redefinição da sua senha na "Nome do site". Acesse o link abaixo para redefinir sua senha.<br>
             <h3><a href="'.$url.'?token='.$_SESSION['token'].'">Redefinir a sua senha</a></h3> 
