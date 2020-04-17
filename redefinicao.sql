@@ -40,8 +40,8 @@ CREATE TABLE `tb_site_alunos` (
 --
 
 INSERT INTO `tb_site_alunos` (`id`, `nome_aluno`, `email_aluno`, `senha_aluno`) VALUES
-(1, 'Juliana', 'juhcosta23@gmail.com', '$2y$10$1HqKnUbCfOfpnkg9Ovi17.DHlyZTleVnbIetA0xVUEAljAKpJMemK'),
-(2, 'adfasdfas', 'missgacy@gmail.com', '$2y$10$R37rrDUlJ8et0zEYPSOweuqYP6lEw16M4VAZ2VDzGbEpfcvbuz3d.');
+(1, 'Juliana', 'seuemail@gmail.com', '$2y$10$1HqKnUbCfOfpnkg9Ovi17.DHlyZTleVnbIetA0xVUEAljAKpJMemK'),
+(2, 'adfasdfas', 'seuemail@gmail.com', '$2y$10$R37rrDUlJ8et0zEYPSOweuqYP6lEw16M4VAZ2VDzGbEpfcvbuz3d.');
 
 --
 -- Índices para tabelas despejadas
